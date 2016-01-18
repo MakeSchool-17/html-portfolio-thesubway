@@ -9,9 +9,24 @@
 .header {
 	border-top: dashed 10px #000000;
 }
+.nav {
+	margin-top: 10px; /*not using percent, because height is dynamic*/
+	margin-left: 10%;
+}
+.nav-element {
+	display: inline;
+	list-style: none;
+}
 body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20;
 	color: #00008F;
 	background-color: #00FF00;
+}
+a {
+	color:#1F8A70;
+	text-decoration: none;
+}
+a:hover {
+	color:#FD7400;
 }
