@@ -8,6 +8,7 @@
 }
 .header {
 	border-top: dashed 10px #000000;
+	margin-bottom: 10px;
 }
 .nav {
 	margin-top: 10px; /*not using percent, because height is dynamic*/
@@ -21,6 +22,10 @@
 	color: #006788;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+}
+.logo {
+     z-index: 2;
+     width: 110px;
 }
 .footer-sub {
 	font-size: 40pt;
@@ -40,6 +45,10 @@
 }
 .circle {
 	border-radius: 50%;
+}
+.main-img {
+	margin-top: -35px;
+	width: 500px;
 }
 .main {
 	text-transform: default;
