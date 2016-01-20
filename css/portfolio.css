@@ -38,6 +38,15 @@
 	color: #dfdfdf;
 	cursor: pointer;
 }
+.main {
+	text-transform: default;
+	letter-spacing: default;
+	font-size: 70px;
+	color: blue;
+}
+.sub {
+	font-size: 50px;
+}
 body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20;
