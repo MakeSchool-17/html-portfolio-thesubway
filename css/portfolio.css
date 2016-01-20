@@ -47,6 +47,9 @@
 .sub {
 	font-size: 50px;
 }
+.photo {
+	border-radius: 50%;
+}
 body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20;
