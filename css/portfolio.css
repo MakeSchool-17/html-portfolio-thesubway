@@ -85,6 +85,12 @@
 .main-wrapper {
 	min-height: calc(100vh - 126px);
 }
+.titles {
+	margin-top: -22%;
+}
+.img-wrapper {
+	width: 60%;
+}
 body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20;
