@@ -82,6 +82,9 @@
 	width: 100%;
 	border-top: 2px solid #101010;
 }
+.main-wrapper {
+	min-height: calc(100vh - 126px);
+}
 body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20;
