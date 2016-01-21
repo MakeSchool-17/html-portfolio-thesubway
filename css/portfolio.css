@@ -56,11 +56,11 @@
 .main {
 	text-transform: default;
 	letter-spacing: default;
-	font-size: 70px;
+	font-size: 60px;
 	color: blue;
 }
 .sub {
-	font-size: 50px;
+	font-size: 42px;
 }
 .flex {
 	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -95,7 +95,27 @@
 }
 @media (max-width: 481px) {
       .header {
-        font-size: 12px;
+        font-size: 14px;
+      }
+      .main {
+      	font-size: 34px;
+      }
+      .sub {
+      	font-size: 24px;
+      }
+      .footer-sub {
+      	font-size: 18pt;
+      }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+      .main {
+      	font-size: 46px;
+      }
+      .sub {
+      	font-size: 33px;
+      }
+      .footer-sub {
+      	font-size: 28pt;
       }
 }
 body {
