@@ -29,6 +29,7 @@
 }
 .footer-sub {
 	font-size: 40pt;
+	flex-shrink: 0; /*to prevent line wrapping*/
 }
 .button {
 	color: #8A00D9;
@@ -72,8 +73,12 @@
 }
 .footer {
 	text-align: center;
+	width:100%;
+	margin-bottom: 2%;
 }
 .line {
+	margin-left: 1%;
+	margin-right: 1%;
 	width: 100%;
 	border-top: 2px solid #101010;
 }
