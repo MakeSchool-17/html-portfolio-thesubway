@@ -49,7 +49,9 @@
 }
 .main-img {
 	margin-top: -35px;
-	width: 500px;
+	/*width: 500px;*/
+	max-width: 100%;
+	height: auto;
 }
 .main {
 	text-transform: default;
@@ -90,6 +92,11 @@
 }
 .img-wrapper {
 	width: 60%;
+}
+@media (max-width: 481px) {
+      .header {
+        font-size: 12px;
+      }
 }
 body {
 	font-family: "Times New Roman", Times, serif;
