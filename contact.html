@@ -27,8 +27,10 @@
 		<section>
 			<h2 class="sub title">Contact Me</h2>
 			<form class="flex column">
-				<input class="input-field" type="email" placeholder="email" required/>
+				<input class="input-field" type="email" placeholder="email" name="_replyto" required/>
+				<input class="input-field" type="hidden" placeholder="subject" name="_subject" required/>
 				<textarea class="input-field" rows="10" cols="20" placeholder="Write something nice" required></textarea>
+				<input type="text" name="_gotcha" style="display:none" />
 				<button class="button" type="submit">Send</button>
 			</form>
 		</section>
@@ -36,6 +38,6 @@
 	<script src="./vendor/jquery-2.2.0.min.js"></script>
 	<script src="./vendor/justified/jquery.justifiedGallery.min.js"></script>
     <script src="./vendor/swipebox/js/jquery.swipebox.min.js"></script>
-    <script src="./js/portfolio.js"></script>
+    <script src="./js/contact.js"></script>
 </body>
 </html>
