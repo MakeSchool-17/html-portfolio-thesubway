@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	});
 
 	gallery.on('jg.complete', function () {
-        alert('the gallery is complete');
+        console.log('the gallery is complete');
         $('#gallery a').swipebox({hideBarsDelay: false});
     });
 });
