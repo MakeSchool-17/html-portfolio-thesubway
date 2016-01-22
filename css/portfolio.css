@@ -19,7 +19,7 @@
 	list-style: none;
 }
 .title {
-	color: #006788;
+	color: #3F34E1;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	text-align: center;
@@ -53,6 +53,7 @@
 	margin-top: -35px;
 	/*width: 500px;*/
 	max-width: 85%;
+	width: 45%;
 	height: auto;
 }
 .main {
@@ -94,7 +95,7 @@
 	min-height: calc(100vh - 126px);
 }
 .titles {
-	margin-top: -22%;
+	margin-top: 0%;
 }
 .img-wrapper {
 	width: 60%;
@@ -155,7 +156,7 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 20;
 	color: #00008F;
-	background-color: #00FF00;
+	background-color: #74FF5C;
 }
 a {
 	color:#1F8A70;
