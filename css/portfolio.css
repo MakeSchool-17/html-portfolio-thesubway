@@ -3,6 +3,10 @@
 	margin: 0;
 	padding: 0;
 }
+.justify-center {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
 .blue {
 	color: blue;
 }
@@ -14,7 +18,15 @@
 	margin-top: 10px; /*not using percent, because height is dynamic*/
 	margin-left: 10%;
 }
+
+.nav-list {
+	border: 1px solid black;
+	display: inline;
+	padding: 5px;
+}
+
 .nav-element {
+	margin: 10px;
 	display: inline;
 	list-style: none;
 }
@@ -73,9 +85,12 @@
 
    	align-items: center;
 }
-.justify-center {
-  justify-content: center;
-  -webkit-justify-content: center;
+.other-sites {
+	display: flex;
+}
+.img-link {
+	width: 70;
+	height: 70;
 }
 .column {
 	flex-direction: column;
