@@ -52,7 +52,7 @@
 .main-img {
 	margin-top: -35px;
 	/*width: 500px;*/
-	max-width: 100%;
+	max-width: 85%;
 	height: auto;
 }
 .main {
@@ -71,6 +71,10 @@
    	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 
    	align-items: center;
+}
+.justify-center {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .column {
 	flex-direction: column;
