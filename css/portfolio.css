@@ -1,5 +1,5 @@
 /*dot means class selector*/
-* {
+ul.nav-list {
 	margin: 0;
 	padding: 0;
 }
@@ -11,31 +11,31 @@
 	color: blue;
 }
 .header {
-	border-top: dashed 10px #000000;
-	margin-bottom: 10px;
+	border-top: dashed 10px #403a3a;
+	margin-bottom: 50px;
 }
 .nav {
-	margin-top: 10px; /*not using percent, because height is dynamic*/
-	margin-left: 10%;
+	margin-top: 10px;/*not using percent, because height is dynamic*/
+	margin-left: 0%;
 }
 
 .nav-list {
-	border: 1px solid black;
+	border: 0px solid black;
 	display: inline;
 	padding: 5px;
 }
 
 .nav-element {
-	margin: 10px;
+	margin: 20px;
 	display: inline;
 	list-style: none;
 }
 .title {
-	color: #3F34E1;
-	text-transform: uppercase;
-	letter-spacing: 3px;
+	color: 3f3a39;
 	text-align: center;
 }
+
+h3.footer-sub.title {}
 .logo {
      z-index: 2;
      width: 110px;
@@ -45,25 +45,25 @@
 	flex-shrink: 0; /*to prevent line wrapping*/
 }
 .button {
-	color: #8A00D9;
-	border: 2px solid #000000;
+	color: white;
+	border: 1px solid #ffffff;
 	display: inline-block;
-	padding: 2px 4px 2px 4px;
+	padding: 10px 10px 10px 10px;
 	font-size: 20px;
-	margin-top: 0px;
-	background-color: transparent;
+	margin-top: 16px;
+	background-color: 01fe80;
 }
 .button:hover {
-	background-color: #019cdb;
-	color: #dfdfdf;
+	background-color: #93FFC9;
+	color: #ffffff;
 	cursor: pointer;
 }
 .circle {
 	border-radius: 50%;
 }
 .main-img {
-	margin-top: -35px;
-	/*width: 500px;*/
+	margin-top: 30px;
+	width: 500px;
 	max-width: 85%;
 	width: 45%;
 	height: auto;
@@ -72,10 +72,14 @@
 	text-transform: default;
 	letter-spacing: default;
 	font-size: 60px;
-	color: blue;
+	color: 00ff9c;
+	margin: 30;
+	margin-bottom: 10;
 }
 .sub {
-	font-size: 42px;
+	font-size: 24px;
+	margin-bottom: 50;
+	margin-top:  -5px;
 }
 .flex {
 	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -120,7 +124,8 @@
 	line-height: 2em;
 	margin: 1%;
 	padding: 4px;
-	border-radius: 1px;
+	border-radius: 3px;
+	border: 2px solid #101010;
 }
 .about-paragraph {
 	margin-top: 15px;
@@ -171,15 +176,15 @@
       }
 }
 body {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 20;
-	color: #00008F;
-	background-color: #74FF5C;
+	color: #101010;
+	background-color: #ffffff;
 }
 a {
-	color:#1F8A70;
+	color:#00ff9c;
 	text-decoration: none;
 }
 a:hover {
-	color:#FD7400;
+	color:#93FFC9;
 }
