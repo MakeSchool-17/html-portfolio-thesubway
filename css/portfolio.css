@@ -96,6 +96,10 @@ h3.footer-sub.title {}
 	width: 70;
 	height: 70;
 }
+.img-link-large {
+	width: 140;
+	height: 140;
+}
 .column {
 	flex-direction: column;
 }
