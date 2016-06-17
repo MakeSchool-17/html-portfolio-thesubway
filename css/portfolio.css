@@ -99,6 +99,7 @@ h3.footer-sub.title {}
 .img-link-large {
 	width: 140;
 	height: 140;
+	margin-left: 10px;
 }
 .column {
 	flex-direction: column;
